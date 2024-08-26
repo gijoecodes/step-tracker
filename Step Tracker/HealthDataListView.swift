@@ -63,7 +63,6 @@ struct HealthDataListView: View {
                         .frame(width: 140)
                         .keyboardType(metric == .steps ? .numberPad : .decimalPad)
                 }
-                
             }
             .navigationTitle(metric.title)
             .toolbar {
